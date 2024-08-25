@@ -6,6 +6,9 @@ Directory: cacti
 
 ### Causality Trace for Cache Simulator
 
+#### **OVERVIEW:**
+Changes energy calculations for cache simulation.
+
 #### **component.py:**
 - Changing `total_diff_w` from relational to set value impacted **4** files downstream.
 - **Changed files:** `mat.py`, `bank.py`, `uca.py`, `uca_org.py`
